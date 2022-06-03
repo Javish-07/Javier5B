@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="icon" href="img/favicon.jpg">
+
+
+</head>
+
+<body>
+    <a href="#modal" class="btn-abrir-VE">Abrir Video</a>
+
+    <footer id="footer">
+        <div id="container-footer">
+            <div id="menu">
+                <input type="checkbox" id="check__menu">
+                <label id="label__check" for="check__menu">
+                    <i class="fa-solid fa-bars icon__menu"></i>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="#" onclick="index()"></a></li>
+                        
+                        <li><a href="#Slider" onclick="Slider()"> Slider</a></li>
+                        <li><a href="#Nosotros" onclick="Curriculum()">Nosotros</a></li>
+                        <li><a href="#Videos" id="selected" onclick="Video()">Videos</a></li>
+                        <li><a href="#Tablas" onclick="Tablas()">Tablas</a></li>
+                        <li><a href="#Horario" onclick="Horario()">Horario</a></li>
+                        <li><a href="#Presentacion" onclick="Inicio()"> Audio/AJAX</a></li>
+                        <li><a href="#Calculadora" onclick="Calculadora()">Calculadora</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </footer>
+    
+
+    <div class="container-all" id="modal">
+
+        <div class="popup">
+            <div class="container-text">
+                <form>
+                    <h1> Reproductor de video</h1>
+                    <video width="450" height="250" id="video1" controls>
+                        <source src="video/video1.mp4" type="video/mp4">
+                    </video>
+                    <!--<div>
+                        <button onclick="skip(-3)">&lt;&lt;</button>
+                        <button onclick="playPause()">&#9658;/||</button>
+                        <button onclick="stop()">&#9640;</button>
+                        <button onclick="skip(3)">&gt;&gt;</button>
+                    </div>-->
+
+                </form>
+            </div>
+            <a href="#" class="btn-cerrar-VE">X</a>
+        </div>
+    </div>
+    <script src="js/video.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/audio.css">
+    <script src="js/operaciones.js"></script>
+    <link rel="icon" href="img/favicon.jpg">
+    <title>Pagina Inicial</title>
+</head>
+
+<body>
+    <div id="container-footer">
+        <div id="menu">
+            <input type="checkbox" id="check__menu">
+            <label id="label__check" for="check__menu">
+                <i class="fa-solid fa-bars icon__menu"></i>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="index()"></a></li>
+                    <li><a href="#Slider" onclick="Slider()"> Slider</a></li>
+                    <li><a href="#Nosotros" onclick="Nosotros()">Curriculum</a></li>
+                    <li><a href="#Videos" onclick="Video()">Videos</a></li>
+                    <li><a href="#Tablas" onclick="Tablas()">Tablas</a></li>
+                    <li><a href="#Horario" onclick="Horario()">Horario</a></li>
+                    <li><a href="#Presentacion" id="selected" onclick="Inicio()"> Audio/AJAX</a></li>
+                    <li><a href="#Calculadora" onclick="Calculadora()">Calculadora</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="audio">
+            <div class="audio-play">
+                <h3>Reproductor de Audio</h3>
+                <img src="img/audio.jpg">
+                <audio controls>
+                    <source src="video/audio.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+        </div>
+
+        <div id="respuesta">esto es una solucion de AJAX</div>
+        <script>
+            var ajax = new XMLHttpRequest();
+            ajax.open('GET', 'ajax.php', true);
+            ajax.onreadystatechange = function () {
+                if (ajax.readyState == 4) {
+
+                    if (ajax.status == 200) {
+                        document.querySelector('#respuesta').innerHTML = ajax.responseText;
+                    } else {
+                        document.querySelector('#respuesta').innerHTML = 'petición errónea...';
+                    }
+
+                } else {
+                    document.querySelector('#respuesta').innerHTML = 'espere...';
+                }
+
+            }
+            ajax.send();
+        </script>
+        <div class="botones">
+            <input type="submit" id="boton" value="Mostrar Etiquetas" onclick="contar()">
+        </div>
+        
+        
+        <div id="caja">
+            <input type="text" id="div" >
+            
+            <input type="text" id="img">
+            
+            <input type="text" id="input">
+            
+            <input type="text" id="li">
+            
+            <input type="text" id="nav">
+        </div>
+       
+    </div>
+
+
+
+
+
+</body>
+
+</html>

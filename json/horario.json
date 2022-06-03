@@ -1,0 +1,50 @@
+[
+	{
+		"id": "7h30:8h30",
+		"Lunes": "Simulacion",
+		"Martes": "Redes",
+		"Miercoles": "Sistemas",
+		"Jueves": "Desarrollo",
+        "Viernes": "Desarrollo"
+	},
+	{
+		"id": "8h30:9h30",
+		"Lunes": "Simulacion",
+		"Martes": "Redes",
+		"Miercoles": "Sistemas",
+		"Jueves": "Desarrollo",
+        "Viernes": "Desarrollo"
+	},
+	{
+		"id": "9h30:10h30",
+		"Lunes": "Analisis",
+		"Martes": "Desarrollo",
+		"Miercoles": "Analisis",
+		"Jueves": "Redes",
+        "Viernes": "Simulacion"
+	},
+	{
+		"id": "10h30:11h30",
+		"Lunes": "Analisis",
+		"Martes": "Desarrollo",
+		"Miercoles": "Analisis",
+		"Jueves": "Redes",
+        "Viernes": "Simulacion"
+	},
+	{
+		"id": "11h30:12h30",
+		"Lunes": "Sistemas",
+		"Martes": "Analisis",
+		"Miercoles": "Desarrollo",
+		"Jueves": "Simulación",
+        "Viernes": "Sistemas"
+	},
+	{
+		"id": "12h30:13h30",
+		"Lunes": "Sistemas",
+		"Martes": "Analisis",
+		"Miercoles": "Desarrollo",
+		"Jueves": "Simulación",
+        "Viernes": "Sistemas"
+	}
+]

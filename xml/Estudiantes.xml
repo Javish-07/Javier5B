@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dbp>
+    <estudiante ides="1"> 
+        <cedula genero="masculino" matriculado="si" id="6843">1104462856</cedula>
+        <nombre>Juan</nombre>
+        <apellido>Perez</apellido>
+        <celular>0959020466</celular>
+        <carrera>Computacion</carrera>    
+    </estudiante>
+    <estudiante> 
+        <cedula genero="masculino" matriculado="si" id="6844">1104412216</cedula>
+        <nombre>Cristian</nombre>
+        <apellido>Capa</apellido>
+        <celular>0980085747</celular>    
+    </estudiante>
+    <estudiante> 
+        <cedula genero="femenino" matriculado="no" id="6845">1904111164</cedula>
+        <nombre>Vanessa</nombre>
+        <apellido>Loja</apellido>
+        <celular>0981117176</celular>    
+    </estudiante>  
+    <estudiante> 
+        <cedula genero="masculino" matriculado="si" id="6846">1104372279</cedula>
+        <nombre>Jean</nombre>
+        <apellido>Martinez</apellido>
+        <celular>0994457974</celular>    
+    </estudiante> 
+    <estudiante> 
+        <cedula genero="masculino" matriculado="si" id="6847">1104372279</cedula>
+        <nombre>Jimmy</nombre>
+        <apellido>Cajamarca</apellido>
+        <celular>0981117176</celular>    
+    </estudiante>  
+    <estudiante> 
+        <cedula genero="femenino" matriculado="si" id="6848">1904111164</cedula>
+        <nombre>Brigith</nombre>
+        <apellido>Lojan</apellido>
+        <celular>0981117176</celular>    
+    </estudiante>  
+    <estudiante>
+        <cedula genero="masculino" matriculado="si" id="6847">1718356412</cedula>
+        <nombre>Alex</nombre>
+        <apellido>Villalta</apellido>
+        <celular>0995478852</celular>
+    </estudiante>
+    <estudiante>
+        <cedula genero="masculino" matriculado="si" id="6847">1104141781</cedula>
+        <nombre>Javier</nombre>
+        <apellido>Aguilar</apellido>
+        <celular>0992479407</celular>
+    </estudiante>
+     
+</dbp>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--tipo de documento -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--codificacion -->
+    <title>Mi pagina web</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.jpg">
+    
+    <script src="js/Calculadora/calculadora.js" type="text/javascript"></script>
+    <script src="js/Calculadora/Display.js" type="text/javascript"></script>
+    <script src="js/Calculadora/javascript.js" type="text/javascript" defer ></script>
+</head>
+
+<body>
+    <div id="container-footer">
+        <div id="menu">
+            <input type="checkbox" id="check__menu">
+            <label id="label__check" for="check__menu">
+                <i class="fa-solid fa-bars icon__menu"></i>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="display.index()"></a></li>
+                    
+                    <li><a href="#Slider" onclick="display.Slider()"> Slider</a></li>
+                    <li><a href="#Curriculum"  onclick="display.Nosotros()">Curriculum</a></li>
+                    <li><a href="#Videos" onclick="display.Video()">Videos</a></li>
+                    <li><a href="#Tablas" onclick="display.Tablas()">Tablas</a></li>
+                    <li><a href="#Horario" onclick="display.Horario()">Horario</a></li>
+                    <li><a href="#Presentacion" onclick="display.Inicio()"> Audio/AJAX</a></li>
+                    <li><a href="#Calculadora" id="selected" onclick="Calculadora()">Calculadora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <div class="contenedor">
+        <div class="calculadora">
+            <div class="display">
+                <div id="vant"></div>
+                <div id="vact"></div>
+            </div>
+            <button class="col-2" onclick="display.delete()">Delete</button>
+            <button onclick="display.borrar()">&larr;</button>
+            <button class="operador" value="dividir">&divide;</button>
+            <button class="numeros">7</button>
+            <button class="numeros">8</button>
+            <button class="numeros">9</button>
+            <button class="operador" value="multiplicar">&times;</button>
+            <button class="numeros">4</button>
+            <button class="numeros">5</button>
+            <button class="numeros">6</button>
+            <button class="operador" value="restar">-</button>
+            <button class="numeros">1</button>
+            <button class="numeros">2</button>
+            <button class="numeros">3</button>
+            <button class="operador" value="sumar">+</button>
+            <button class="col-2 numeros">0</button>
+            <button class="numeros">.</button>
+            <button class="operador" value="igual">=</button>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

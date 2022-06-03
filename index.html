@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/operaciones.js"></script>
+    <link rel="icon" href="img/favicon.jpg">
+    <title>VentanaPrincipal</title>
+</head>
+
+<body>
+    
+    <a href="#modal" class="btn-abrir-VE">Abrir Login</a>
+    
+        <div id="container-footer">
+            <div id="menu">
+                <input type="checkbox" id="check__menu">
+                <label id="label__check" for="check__menu">
+                    <i class="fa-solid fa-bars icon__menu"></i>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="#login" id="selected"></a></li>
+                        
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+       
+    
+    
+    
+    
+    <div class="container-all" id="modal">
+        
+        <div class="popup">
+            <div class="img"></div>
+            <div class="container-text">
+
+                <form id="formulario">
+                    <h1>Formulario Login</h1>
+                    <input type="text" id="usuario" placeholder="Ingresa tu usuario"> <br />
+                    <input type="password" id="clave" placeholder="Ingresa tu clave"><br />
+
+                    <input type="button" id="button" value="Iniciar Sesión" onclick="validar()">
+                    <p> <a href="#Contraseña">Registrate aquí</a></p>
+                </form>
+                
+            </div>
+            <a href="#" class="btn-cerrar-VE">X</a>
+        </div>
+    </div>
+    
+</body>
+
+</html>

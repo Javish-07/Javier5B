@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="icon" href="img/favicon.jpg">
+    <script src="js/operaciones.js"></script>
+    <title>Slider</title>
+</head>
+
+<body>
+    <div id="container-footer">
+        <div id="menu">
+            <input type="checkbox" id="check__menu">
+            <label id="label__check" for="check__menu">
+                <i class="fa-solid fa-bars icon__menu"></i>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="index()"></a></li>
+
+                    <li><a href="#Slider" id="selected"> Slider</a></li>
+                    <li><a href="#Nosotros" onclick="Curriculum()">Curriculum</a></li>
+                    <li><a href="#Videos" onclick="Video()">Videos</a></li>
+                    <li><a href="#Tablas" onclick="Tablas()">Tablas</a></li>
+                    <li><a href="#Horario" onclick="Horario()">Horario</a></li>
+                    <li><a href="#Presentacion" onclick="Inicio()"> Audio/AJAX</a></li>
+                    <li><a href="#Calculadora" onclick="Calculadora()">Calculadora</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        
+    </div>
+    <div class="container">
+        <input type="radio" id="i1" name="images" checked />
+        <input type="radio" id="i2" name="images" />
+        <input type="radio" id="i3" name="images" />
+        <div class="slide_img" id="one">
+            <img src="https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/4GSUPRZXXREO7A3YKFIT3W2RMM.jpg">
+            <label class="prev" for="i3"><span>&#x2039;</span></label>
+            <label class="next" for="i2"><span>&#x203a;</span></label>
+        </div>
+        <div class="slide_img" id="two">
+            <img src="https://www.estrenocasa.com/wp-content/uploads/2018/06/casas-lujosas.jpg">
+            <label class="prev" for="i1"><span>&#x2039;</span></label>
+            <label class="next" for="i3"><span>&#x203a;</span></label>
+        </div>
+        <div class="slide_img" id="three">
+            <img src="https://s1.eestatic.com/2021/07/16/deportes/motor/f1/596951676_195418648_1706x960.jpg">
+            <label class="prev" for="i2"><span>&#x2039;</span></label>
+            <label class="next" for="i1"><span>&#x203a;</span></label>
+        </div>
+        <div id="nav_slide">
+            <label for="i1" class="dots" id="dot1"></label>
+            <label for="i2" class="dots" id="dot2"></label>
+            <label for="i3" class="dots" id="dot3"></label>
+        </div>
+    </div>
+    
+</body>
+</html>

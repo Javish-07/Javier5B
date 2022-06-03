@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+
+}
+
+body {
+
+    background-image: url(../img/fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+
+/*ARTICULOS*/
+
+.curriculum{
+    max-width: 100%;
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 25px;
+}
+
+
+.curriculum article{
+    border-radius: 20px;
+    margin: 15px;
+    border: 1px solid #000000;
+    background: rgba(255, 255, 255, 0.979);
+    padding: auto;
+}
+
+
+.curriculum h1 {
+    text-align: center;
+    color: #000;
+    font-family: cursive;
+}
+.curriculum h2 {
+    text-align: left;
+    color: #000;
+    font-family: cursive;
+}
+.curriculum p {
+    text-align: left;
+    color: #000;
+    font-family: cursive;
+    
+}
