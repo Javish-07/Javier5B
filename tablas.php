@@ -24,7 +24,7 @@
                 <ul>
                     <li><a href="#login" onclick="index()"></a></li>
 
-                    <li><a href="#Slider" onclick="Slider()"> Carrusel</a></li>
+                    <li><a href="#Slider" onclick="Slider()"> Slider</a></li>
                     <li><a href="#Nosotros" onclick="Nosotros()">Nosotros</a></li>
                     <li><a href="#Videos" onclick="Video()">Videos</a></li>
                     <li><a href="#Tablas" id="selected" onclick="Tablas()">Tablas</a></li>
